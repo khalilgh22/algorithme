@@ -1,0 +1,19 @@
+ALGORITHM chekpoint1
+VAR
+    c : CHAR 
+    numberWords=0 , numberVowles =0 , numberCharacters=0 : INTEGER 
+BEGIN
+   read(c)
+
+ while(c != '.') 
+ {
+ numberCharacters ++ 
+ if (c in ['a','e','y','o','u','i'])then
+ numberVowles ++ 
+ if(c:=' ')
+numberWords ++
+ }
+write(numberWords)
+write(numberVowles)
+write(numberCharacters)
+END
